@@ -9,7 +9,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/btnactualmente"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="172dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
+        android:id="@+id/btnhobbys"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -28,10 +28,10 @@
         android:text="Mis Hobbys"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnactualmente" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
+        android:id="@+id/btnfuture"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -41,6 +41,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/btnhobbys"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
