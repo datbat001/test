@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Conocimiento</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre">Nombre: David Alejandro Dominguez Valerio</string>
+    <string name="quien_soy">¿QUIEN SOY?</string>
+    <string name="edad">Edad: 23</string>
+    <string name="age">Cumpleaños: 3 Diciembre</string>
+</resources>
