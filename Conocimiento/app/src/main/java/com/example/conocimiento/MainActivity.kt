@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btnContinue.setOnClickListener {
-            val intent = Intent(applicationContext,menu::class.java)
+            val intent = Intent(applicationContext,Menu::class.java)
             startActivity(intent)
         }
     }
