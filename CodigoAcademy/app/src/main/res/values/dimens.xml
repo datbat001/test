@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titulo_actividad">25sp</dimen>
+    <dimen name="sizeTitulo">25sp</dimen>
+    <dimen name="sizeItemCurso">18sp</dimen>
+    <dimen name="espacioLeftItemCurso">20dp</dimen>
+    <dimen name="espacioTopItemCurso">15dp</dimen>
+</resources>
