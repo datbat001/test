@@ -1,0 +1,186 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .column {
+            float: left;
+            width: 20%;
+            background-color: aqua;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .rounded {
+            border-radius: 5px;
+            color: #FF6900;
+            border: 2px solid;
+        }
+
+        .column-center {
+            float: left;
+            width: 60%;
+        }
+        .card{
+            background-color: #094233; 
+            width: 318xp; 
+            height: 446px;
+        }
+        .col-md-4 {
+            align-content: center;
+        }
+        .carousel-item {
+            margin-left: 120px;
+        }
+        .carousel-control-prev {
+            background-color: rgb(0, 0, 0,0);
+            color: #FF6900;
+        }
+        .carousel-control-prev-icon {
+            background-color: #FF6900;
+            color: #FF6900;
+        }
+        .visually-hidden{
+            background-color: #FF6900;
+            color: #FF6900;
+        }
+        .carousel-control-next-icon{
+            color: #FF6900;
+            width: 44px;
+            height: 55px;
+            font-size: 100px;
+            margin-bottom: 100px;
+        }
+        .previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: red;
+}
+
+.round {
+  border-radius: 50%;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Titulo Carrusel -->
+    <div class="row">
+        <div class="col">
+            <h3 class="text-center" style="color:#07362D;">Opiniones De Nuestros Clientes</h3>
+        </div>
+    </div>
+    <!-- Separador -->
+    <div>
+        <hr class="rounded" style="color: #FF6900;">
+    </div>
+    <!-- carrusel -->
+    <div class="row">
+        <div class="column">
+            hola
+        </div>
+
+        <div class="column-center">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner"> 
+                    <div class="carousel-item active">
+                        <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="card">
+                                <img class="center"
+                                    style="border-radius: 50%; width: 160.5px; height: 150px; display: block; margin-left: auto; margin-right: auto; margin-top: 29px;"
+                                    alt="100%x280"
+                                    src="http://c77a9a46-7680-4c97-ae0c-18736fcafddc.clouding.host/wp-content/uploads/2023/01/Imagen1.jpg">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="color: #EAE7B1;">Rafael García</h4>
+                                    <p class="card-text" style="color: #EAE7B1;">"Le veo gran utilidad para mí y los jóvenes de la UTSEM, se me facilitó mucho instalarlo, nunca había visto un dispositivo igual"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="card">
+                                <img class="center"
+                                    style="border-radius: 50%; width: 160.5px; height: 150px; display: block; margin-left: auto; margin-right: auto; margin-top: 29px;"
+                                    alt="100%x280"
+                                    src="http://c77a9a46-7680-4c97-ae0c-18736fcafddc.clouding.host/wp-content/uploads/2023/01/Imagen-de-WhatsApp-2023-01-10-a-las-18.41-1-1.png">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="color: #EAE7B1;">Adalberto Solis</h4>
+                                    <p class="card-text" style="color: #EAE7B1;">"Es practico y facil de entender, me ayudaria este producto para mis cultivos y reduciria la perdida que llego a tener"</p>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <div class="card">
+                                    <img class="center"
+                                        style="border-radius: 50%; width: 160.5px; height: 150px; display: block; margin-left: auto; margin-right: auto; margin-top: 29px;"
+                                        alt="100%x280"
+                                        src="http://c77a9a46-7680-4c97-ae0c-18736fcafddc.clouding.host/wp-content/uploads/2023/01/Imagen1.jpg">
+                                    <div class="card-body">
+                                        <h4 class="card-title" style="color: #EAE7B1;">Rafael García</h4>
+                                        <p class="card-text" style="color: #EAE7B1;">"Le veo gran utilidad para mí y los jóvenes de la UTSEM, se me facilitó mucho instalarlo, nunca había visto un dispositivo igual"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="card">
+                                    <img class="center"
+                                        style="border-radius: 50%; width: 160.5px; height: 150px; display: block; margin-left: auto; margin-right: auto; margin-top: 29px;"
+                                        alt="100%x280"
+                                        src="http://c77a9a46-7680-4c97-ae0c-18736fcafddc.clouding.host/wp-content/uploads/2023/01/Imagen-de-WhatsApp-2023-01-10-a-las-18.41-1-1.png">
+                                    <div class="card-body">
+                                        <h4 class="card-title" style="color: #EAE7B1;">Adalberto Solis</h4>
+                                        <p class="card-text" style="color: #EAE7B1;">"Es practico y facil de entender, me ayudaria este producto para mis cultivos y reduciria la perdida que llego a tener"</p>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- <a href="#" class="previous round" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" >&#8249;</a>
+                    <a href="#" class="next round"data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">&#8250;</a> -->
+                <button class="carousel-control-prev"  type="button"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" >
+                    <span class="carousel-control-prev-icon "  ></span>
+                    <span class="visually-hidden" >Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="false">&#8250;</span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="column">
+            bai
+        </div>
+    </div>
+</body>
